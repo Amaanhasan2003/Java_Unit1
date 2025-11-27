@@ -1,16 +1,15 @@
-class VariableDemo {
+class IfElseLadderDemo {
 public static void main(String[] args) {
-int age = 25; // integer variable
-double salary = 55000.75; // double variable
-char grade = 'A'; // character variable
-boolean isStudent = false; // boolean variable
-
-Java Programs Demonstrating Variables, Constants, and
-Data Types
-
-System.out.println("Age: " + age);
-System.out.println("Salary: " + salary);
-System.out.println("Grade: " + grade);
-System.out.println("Is Student: " + isStudent);
+int marks = 82;
+if (marks >= 90)
+System.out.println("Grade: A+");
+else if (marks >= 80)
+System.out.println("Grade: A");
+else if (marks >= 70)
+System.out.println("Grade: B");
+else if (marks >= 60)
+System.out.println("Grade: C");
+else
+System.out.println("Grade: F");
 }
 }
